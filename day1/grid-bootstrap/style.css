@@ -1,0 +1,42 @@
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: grey;
+    padding : 5px;
+}
+
+.box {
+    width: calc(33% - 10px);
+    height : 200px;
+    padding: 5px;
+    margin: 5px;
+    background-color: aqua;
+
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.double {
+    width: calc(66% - 10px)
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="materialize.css"  media="screen,projection"/>
+         
+        <!-- Optimize website for mobile -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+        <!-- Navigation Bar Goes Here.  -->
+        <nav class="nav-extended">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">Logo</a>
+              <!-- <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
+              <ul id="nav-mobile" class="right hide-on-med-and-down tabs-transparent">
+                <li class="tab"><a href="#test1">About Me</a></li>
+                <li class="tab"><a class="active" href="#test2">Survey</a></li>
+              </ul>
+            </div>
+          </nav>
+    
+        <div class="row">
+            <div class="col s4"> 
+                <h1>Hi, I'm Hannah</h1>
+                <div class="divider"></div>
+
+                <p> My github username is @hjkim015</p>
+                <img width = 100% src="Images/profile.jpg" alt="Picture at Yellowstone National Park!">
+            </div>
+           
+            <div class="col s8">
+                <div class="section">
+                    <h3>A Little About Me</h3>
+                <blockquote>
+                    Hi everyone! My name is Hannah, a rising sophomore at Harvard studying Computer Science and Government. I'm mostly studying those two subjects 
+                    because I've always been pretty indecisive about choosing one over the other haha. I was born in Chicago, but consider Northern California my home as 
+                    I've lived there for nearly all of my life. Outside of school, I like going on roadtrips and exploring 
+                    national parks with my family. Can any of you guess which national park the picture above was taken? I also love to play volleyball, eat, and have
+                    occasional seasons of binge reading. <br><br>
+                    I'm really excited to get to know everyone through Ixperience. Whether it's by collaborating on assignments or going out into the city
+                    to explore food and scenic spots, I'm looking forward to it all. I'm on Spotify basically all the time, 
+                    have Imessage, and Ig if you want to stay in touch during and after the program, whatever suits you best:) 
+                </div>
+                
+            </blockquote>
+            <div class="divider"></div>
+            <div class="section margin">
+                 <!-- Survey -->
+                 <div class="row">
+                    <h3>Survey</h3>
+                    <form class="col s12">
+                      <div class="row">
+                        <div class="input-field col s6">
+                          <input id="first_name" type="text" class="validate">
+                          <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                          <input id="last_name" type="text" class="validate">
+                          <label for="last_name">Last Name</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input id="email" type="email" class="validate">
+                          <label for="email">Email</label>
+                        </div>
+                      </div>
+
+                      <h6>Select all injuries I've had/have<h6>
+                      <p>
+                        <label>
+                          <input type="checkbox" />
+                          <span>Sprained Ankle</span>
+                        </label>
+                      </p>
+                      <p>
+                        <label>
+                          <input type="checkbox" />
+                          <span>Torn ACL</span>
+                        </label>
+                      </p>
+                      <p>
+                        <label>
+                          <input type="checkbox" />
+                          <span>Fractured Thumb</span>
+                        </label>
+                      </p>
+                      <p>
+                        <label>
+                          <input type="checkbox" />
+                          <span>Concussion</span>
+                        </label>
+                      </p>
+
+                      <h6>Which national park is pictured above?<h6>
+                      <p>
+                        <label>
+                          <input name="group1" type="radio" />
+                          <span>Yellowstone National Park</span>
+                        </label>
+                        </p>
+                       <p>
+                        <label>
+                          <input name="group1" type="radio" />
+                          <span>Yosemite National Park</span>
+                        </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input name="group1" type="radio" />
+                                <span>Grand Teton National Park</span>
+                            </label>
+                        </p>
+
+                        <p>
+                            <label>
+                                <input name="group1" type="radio" />
+                                <span>Death Valley National Park</span>
+                            </label>
+                        </p>
+
+                        <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Submit!</a>
+
+                      </div>
+
+                    </form>
+                  </div>
+            </div>
+            </div>
+        </div>
+
+        <script type="javascript" src="materialize.min.js"></script>
+    </body>
+
+</html>
